@@ -1,6 +1,6 @@
 This is a php scrap handler using php-webdriver powered by facebook
 
-1. Download
+1. Download （Needless, I have do it for you）
 
 ChromeWebDriver:https://sites.google.com/a/chromium.org/chromedriver/downloads
 

@@ -1,4 +1,4 @@
-This is a php scrap demo using php-webdriver powered by facebook
+This is a php scrap handler using php-webdriver powered by facebook
 
 1. Download
 
@@ -15,7 +15,7 @@ java  -Dwebdriver.chrome.driver=./lib/chromedriver -jar  ./lib/selenium-server-s
 
 3. Run
 
-php ./example.php
+php  index.php
 
 
 That's it!

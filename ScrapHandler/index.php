@@ -1,8 +1,10 @@
 <?php
 // An example of using php-webdriver.
 namespace Facebook\WebDriver;
+require_once('./../Communication/ComHandler.php');
 
 use Facebook\WebDriver\Exception\WebDriverException;
+use Facebook\WebDriver\Interactions\Touch\WebDriverTouchScreen;
 use Facebook\WebDriver\Remote\DesiredCapabilities;
 use Facebook\WebDriver\Remote\RemoteWebDriver;
 use Facebook\WebDriver\Support\Events\EventFiringWebDriver;
@@ -27,6 +29,7 @@ class ScrapHandle
     private $webDriver;
     private $timeOut = 5000;
 
+
     /**
      * config web driver,
      * at first, scrap handler send validate code image to web view
@@ -39,12 +42,25 @@ class ScrapHandle
         $this->webDriver->get($this->loginURL);
 
         $this->userNameElem = $this->webDriver->findElement(WebDriverBy::id('username'));
-        $this->userNameElem->sendKeys('13408230120');
+//        $this->userNameElem->sendKeys(\ComHandler::$userName);
 
         $this->passwordElem = $this->webDriver->findElement(WebDriverBy::id('password'));
-        $this->passwordElem->sendKeys('xiaonianshan520');
+//        $this->passwordElem->sendKeys(\ComHandler::$password);
 
         $this->validateNumberElem = $this->webDriver->findElement(WebDriverBy::id('captcha_gr'));
+//        $this->validateNumberElem->sendKeys(\ComHandler::$validateCode);
+
+        $this->webDriver->wait(3);
+        $url = $this->validateNumberElem->getText();
+        $curl = curl_init($url);
+        $filename = date("Ymdhis") . ".jpg";
+        curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+        $imageData = curl_exec($curl);
+        curl_close($curl);
+        $tp = @fopen($filename, 'a');
+        fwrite($tp, $imageData);
+        fclose($tp);
+
     }
 
     /**
@@ -72,9 +88,12 @@ class ScrapHandle
     {
         $this->initWebDriver();
         assert($this->webDriver instanceof RemoteWebDriver);
-        $this->webDriver->wait(10);
+        $this->webDriver->wait(3);
         $this->doLogin();
         $this->getBoughtSecurityInfo();
+        file_put_contents("./../validateImgLink.txt", $this->getValidateCodeLinkStr());
+
+
     }
 
     /**
@@ -83,11 +102,18 @@ class ScrapHandle
      */
     public function doLogin()
     {
-        if ($this->webDriver instanceof JavascriptExecutor) {
-            $this->webDriver->executeScript("login();");
+        assert($this->webDriver instanceof RemoteWebDriver);
+
+        try {
+            if ($this->webDriver instanceof JavascriptExecutor) {
+                $this->webDriver->executeScript("login();");
+            }
+        } catch (\Exception $e) {
+            echo "error 108 dologin";
         }
+
         // Wait for at most 20s and retry every 500ms if it the title is not correct.
-        $this->webDriver->wait(20, 500)->until(
+        $this->webDriver->wait()->until(
             WebDriverExpectedCondition::titleIs('个人用户中心')
         );
 
@@ -100,7 +126,7 @@ class ScrapHandle
         $url = 'http://www.63si.com.cn:8888/lswtqt/112888/Q2003.jhtml';
         $this->webDriver->get($url);
         // Wait for at most 20s and retry every 500ms if it the title is not correct.
-        $this->webDriver->wait(20, 500)->until(
+        $this->webDriver->wait()->until(
             WebDriverExpectedCondition::titleIs('个人办事-参保信息查询')
         );
         $infoListElems = $this->webDriver->findElements(WebDriverBy::className('slick-grid-canvas'));

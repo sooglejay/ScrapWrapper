@@ -1,7 +1,6 @@
 <?php
 // An example of using php-webdriver.
 namespace Facebook\WebDriver;
-require_once('./../Communication/ComHandler.php');
 
 use Facebook\WebDriver\Exception\WebDriverException;
 use Facebook\WebDriver\Interactions\Touch\WebDriverTouchScreen;

@@ -158,7 +158,9 @@ class requests
         }
         if ( empty($domain)) 
         {
-            unset(self::$cookies);
+
+                unset($cookies);
+
         }
         else 
         {

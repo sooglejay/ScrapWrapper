@@ -1566,3 +1566,5 @@
 127.0.0.1 - - [22/Jul/2017:20:06:12 +0800] "POST /ScrapWeb/index.php HTTP/1.1" 200 2452
 127.0.0.1 - - [22/Jul/2017:20:06:13 +0800] "POST /ScrapWeb/index.php HTTP/1.1" 200 2452
 127.0.0.1 - - [22/Jul/2017:20:06:26 +0800] "POST /ScrapWeb/index.php?action=doCanBaoInfoQueryAction HTTP/1.1" 200 892
+127.0.0.1 - - [22/Jul/2017:20:16:33 +0800] "POST /ScrapWeb/index.php HTTP/1.1" 200 2452
+127.0.0.1 - - [22/Jul/2017:20:16:34 +0800] "GET /ScrapWeb/image/head.png HTTP/1.1" 304 -

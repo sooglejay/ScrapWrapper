@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abf337e4-19fb-4554-867b-de4f7d641d74" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScrapWeb" afterPath="$PROJECT_DIR$/ScrapWeb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason.pureconcepts.local-access_log" afterPath="$PROJECT_DIR$/jason.pureconcepts.local-access_log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapWeb/web/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1097">
-              <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+            <state relative-caret-position="1176">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -89,19 +90,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="treatnodata.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScrapWeb/web/treatment/treatnodata.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScrapWeb/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
+            <state relative-caret-position="441">
+              <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#span#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,7 +231,6 @@
         <option value="$PROJECT_DIR$/ScrapWeb/web/payedInfo/losejob.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/web/payedInfo/basicmedical.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/web/payedInfo/jobinjury.html" />
-        <option value="$PROJECT_DIR$/ScrapWeb/web/index.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/web/treatmentindex.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/web/payinfoindex.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/css/agedtreatment.css" />
@@ -249,6 +243,7 @@
         <option value="$PROJECT_DIR$/ScrapWeb/web/treatment/jobinjurytreatment.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/js/nfsl205.js" />
         <option value="$PROJECT_DIR$/ScrapWeb/web/login.html" />
+        <option value="$PROJECT_DIR$/ScrapWeb/web/index.html" />
       </list>
     </option>
   </component>
@@ -489,12 +484,12 @@
       <workItem from="1500545109259" duration="2364000" />
       <workItem from="1500641126506" duration="8281000" />
       <workItem from="1500697965278" duration="3737000" />
-      <workItem from="1500702398604" duration="17613000" />
+      <workItem from="1500702398604" duration="18611000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59215000" />
+    <option name="totallyTimeSpent" value="60213000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -856,26 +851,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapWeb/web/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapWeb/web/payinfoindex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -1003,9 +978,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScrapWeb/web/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1097">
-          <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+        <state relative-caret-position="1176">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapWeb/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="58" column="0" lean-forward="true" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#td#0;n#tr#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

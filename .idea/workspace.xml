@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abf337e4-19fb-4554-867b-de4f7d641d74" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ScrapWeb" afterPath="$PROJECT_DIR$/ScrapWeb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jason.pureconcepts.local-access_log" afterPath="$PROJECT_DIR$/jason.pureconcepts.local-access_log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,16 +14,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="agedpayinfo.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScrapWeb/web/payedInfo/agedpayinfo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="401">
-              <caret line="55" column="89" lean-forward="true" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="129" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="treatmentindex.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapWeb/web/treatmentindex.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -47,17 +37,39 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapWeb/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="643">
+            <state relative-caret-position="624">
               <caret line="131" column="50" lean-forward="false" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agedtreatment.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ScrapWeb/web/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1097">
+              <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nfsl205.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ScrapWeb/js/nfsl205.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#43#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="agedtreatment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapWeb/web/treatment/agedtreatment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-468">
+            <state relative-caret-position="-1847">
               <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -95,16 +107,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="agedtreatment.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ScrapWeb/css/agedtreatment.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="951">
-              <caret line="148" column="1" lean-forward="false" selection-start-line="148" selection-start-column="1" selection-end-line="148" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="maternitytreatment.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ScrapWeb/web/treatment/maternitytreatment.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -132,12 +134,12 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>domain</find>
       <find>get_response_body</find>
       <find>environment</find>
       <find>main-&gt;</find>
@@ -167,6 +169,7 @@
       <find>../</find>
       <find>&gt;' + '&lt;/img&gt;' + '</find>
       <find>id=&quot;pic&quot;</find>
+      <find>git</find>
     </findStrings>
     <replaceStrings>
       <replace>] +&quot;&lt;</replace>
@@ -195,7 +198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ScrapWeb/缴费信息查询/养老缴费账单查询.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/缴费信息查询/基本医疗缴费查询.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/缴费信息查询/生育保险缴费查询.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/缴费信息查询/工伤保险缴费查询.html" />
@@ -215,7 +217,6 @@
         <option value="$PROJECT_DIR$/ScrapWeb/CurlInstance.php" />
         <option value="$PROJECT_DIR$/ScrapWeb/webController.php" />
         <option value="$PROJECT_DIR$/ScrapWeb/main.php" />
-        <option value="$PROJECT_DIR$/ScrapWeb/web/login.html" />
         <option value="$PROJECT_DIR$/ScrapWeb/basic.php" />
         <option value="$PROJECT_DIR$/ScrapWeb/css/medicalpay.css" />
         <option value="$PROJECT_DIR$/ScrapWeb/js/index.js" />
@@ -246,6 +247,8 @@
         <option value="$PROJECT_DIR$/ScrapWeb/curlModel.php" />
         <option value="$PROJECT_DIR$/ScrapWeb/index.php" />
         <option value="$PROJECT_DIR$/ScrapWeb/web/treatment/jobinjurytreatment.html" />
+        <option value="$PROJECT_DIR$/ScrapWeb/js/nfsl205.js" />
+        <option value="$PROJECT_DIR$/ScrapWeb/web/login.html" />
       </list>
     </option>
   </component>
@@ -267,8 +270,8 @@
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://jianwei.local" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.6" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
-    <option name="y" value="181" />
+    <option name="x" value="35" />
+    <option name="y" value="52" />
     <option name="width" value="2545" />
     <option name="height" value="1175" />
   </component>
@@ -345,29 +348,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="treatment" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhpstormProjects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PhpstormProjects" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScrapWeb" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -389,11 +370,11 @@
       <recent name="$PROJECT_DIR$/ScrapWeb/web" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ScrapWeb/image" />
       <recent name="$PROJECT_DIR$/ScrapWeb/css" />
       <recent name="$PROJECT_DIR$/ScrapWeb/web" />
       <recent name="$PROJECT_DIR$/ScrapWeb" />
       <recent name="$PROJECT_DIR$/ScrapWeb/待遇信息查询" />
-      <recent name="$PROJECT_DIR$/ScrapWeb/缴费信息查询" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -508,12 +489,12 @@
       <workItem from="1500545109259" duration="2364000" />
       <workItem from="1500641126506" duration="8281000" />
       <workItem from="1500697965278" duration="3737000" />
-      <workItem from="1500702398604" duration="16071000" />
+      <workItem from="1500702398604" duration="17613000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57673000" />
+    <option name="totallyTimeSpent" value="59215000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -525,7 +506,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="181" width="2545" height="1175" extended-state="0" />
+    <frame x="35" y="52" width="2545" height="1175" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1901718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -536,7 +517,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21002838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21002838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39924315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -581,7 +562,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ScrapWeb/BasicUserInfoQuery.html" />
     <entry file="file://$PROJECT_DIR$/ScrapWeb/参保信息查询.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
@@ -688,16 +668,6 @@
         <state relative-caret-position="3000">
           <caret line="125" column="7" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="125" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapWeb/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="107" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="107" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,14 +956,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ScrapWeb/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="643">
-          <caret line="131" column="50" lean-forward="false" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ScrapWeb/web/treatment/jobinjurytreatment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="339">
@@ -1012,12 +974,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ScrapWeb/web/treatment/agedtreatment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
+        <state relative-caret-position="-1847">
           <caret line="5" column="42" lean-forward="false" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#table#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapWeb/js/nfsl205.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapWeb/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="131" column="50" lean-forward="false" selection-start-line="131" selection-start-column="20" selection-end-line="131" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ScrapWeb/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1097">
+          <caret line="82" column="43" lean-forward="false" selection-start-line="82" selection-start-column="43" selection-end-line="82" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

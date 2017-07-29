@@ -1,1 +1,5 @@
 [Sat Jul 22 00:25:50.686292 2017] [:error] [pid 3392] [client 127.0.0.1:61748] script '/Users/jianwei/PhpstormProjects/ScrapWeb/login.php' not found or unable to stat
+[Fri Jul 28 20:26:02.946545 2017] [autoindex:error] [pid 206] [client 127.0.0.1:61987] AH01276: Cannot serve directory /Users/jianwei/PhpstormProjects/ScrapWeb/: No matching DirectoryIndex (index.html,index.html,index.php) found, and server-generated directory index forbidden by Options directive
+[Fri Jul 28 20:26:15.385572 2017] [:error] [pid 19869] [client 127.0.0.1:61989] script '/Users/jianwei/PhpstormProjects/ScrapWeb/index.php' not found or unable to stat
+[Fri Jul 28 20:31:07.840170 2017] [:error] [pid 19907] [client 127.0.0.1:62147] script '/Users/jianwei/PhpstormProjects/ScrapWeb/ScrapWeb/git_updage.php' not found or unable to stat
+[Fri Jul 28 20:50:39.631617 2017] [autoindex:error] [pid 19872] [client 127.0.0.1:62409] AH01276: Cannot serve directory /Users/jianwei/PhpstormProjects/ScrapWeb/: No matching DirectoryIndex (index.html,index.html,index.php) found, and server-generated directory index forbidden by Options directive
